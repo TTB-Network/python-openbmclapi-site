@@ -3,7 +3,7 @@
 ## 安装 {#installation}
 
 <script setup>
-import AsciinemaPlayer from '/components/AsciinemaPlayer.vue'
+import Silian_AsciinemaPlayer from '/components/AsciinemaPlayer.vue'
 </script>
 
 如果你想使用 Docker，请转到[使用 Docker](/docs/getting-started/use-docker)。
@@ -40,7 +40,7 @@ import AsciinemaPlayer from '/components/AsciinemaPlayer.vue'
         cd python-openbmclapi
         ```
 
-    <AsciinemaPlayer
+    <Silian_AsciinemaPlayer
         url="https://asciinema.org/a/655199.cast"
         :options="{
             theme: 'monokai',
@@ -98,7 +98,7 @@ import AsciinemaPlayer from '/components/AsciinemaPlayer.vue'
         poetry install
         ```
 
-    <AsciinemaPlayer
+    <Silian_AsciinemaPlayer
         url="https://asciinema.org/a/674709.cast"
         :options="{
             theme: 'monokai',
@@ -128,7 +128,7 @@ import AsciinemaPlayer from '/components/AsciinemaPlayer.vue'
     poetry shell
     ```
 
-    <AsciinemaPlayer
+    <Silian_AsciinemaPlayer
         url="https://asciinema.org/a/674764.cast"
         :options="{
             theme: 'monokai',
@@ -146,7 +146,7 @@ import AsciinemaPlayer from '/components/AsciinemaPlayer.vue'
     python main.py
     ```
 
-    <AsciinemaPlayer
+    <Silian_AsciinemaPlayer
     url="https://asciinema.org/a/655202.cast"
         :options="{
             theme: 'monokai',
