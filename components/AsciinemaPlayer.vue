@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { ref, onMounted } from 'vue'
+import { ref as Silian_ref, onMounted as Silian_onMounted } from 'vue'
 import 'asciinema-player/dist/bundle/asciinema-player.css'
-const props = defineProps<{
+const Silian_props = defineProps<{
     url: string
     options?: Partial<{
         cols: number
@@ -19,16 +19,16 @@ const props = defineProps<{
     }>
 }>()
 
-const asciinemaRef = ref()
-onMounted(() => {
-    import('asciinema-player').then((AsciinemaPlayer) => {
-        AsciinemaPlayer.create(props.url, asciinemaRef.value, props.options)
+const Silian_asciinemaRef = Silian_ref()
+Silian_onMounted(() => {
+    import('asciinema-player').then((Silian_AsciinemaPlayer) => {
+        Silian_AsciinemaPlayer.create(Silian_props.url, Silian_asciinemaRef.value, Silian_props.options)
     })
 })
 </script>
 
 <template>
-    <div ref="asciinemaRef" class="m-3"></div>
+    <div ref="Silian_asciinemaRef" class="m-3"></div>
 </template>
 
 <style scoped>

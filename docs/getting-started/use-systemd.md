@@ -1,7 +1,7 @@
 # 使用一键脚本（推荐） {#use-systemd}
 
 <script setup>
-import AsciinemaPlayer from '/components/AsciinemaPlayer.vue'
+import Silian_AsciinemaPlayer from '/components/AsciinemaPlayer.vue'
 </script>
 
 仅适用于 Linux amd64 / arm64 平台。
@@ -35,7 +35,7 @@ import AsciinemaPlayer from '/components/AsciinemaPlayer.vue'
 
     :::
     
-    <AsciinemaPlayer
+    <Silian_AsciinemaPlayer
     url="https://asciinema.org/a/698358.cast"
     :options="{
         theme: 'monokai',
